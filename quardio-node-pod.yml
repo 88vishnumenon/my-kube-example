@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: quardio-node
+  labels:
+   name: quardio-node
+   app: quardio-node
+spec:
+ containers:
+   - name: quardio-node
+     image: 88vishnumenon/node-quardio:latest
+     ports:
+       - containerPort: 49160
