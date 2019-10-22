@@ -9,6 +9,6 @@ spec:
  ports:
  - port: 49160
    targetPort: 49160
-selector:
+ selector:
    name: quardio-node
    app: quardio-node
