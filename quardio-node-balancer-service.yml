@@ -12,5 +12,5 @@ spec:
     - port: 80
       targetPort: 80
   selector:
-    name: quardio-node-service
-    app: quardio-node-service
+    name: quardio-node
+    app: quardio-node
